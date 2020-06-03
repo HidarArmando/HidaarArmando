@@ -31,24 +31,4 @@ sudo luarocks install luasocket
 sudo luarocks install luasec
 sudo apt-get install libconfig++9v5 -y 
 sudo apt-get install libstdc++6 -y
-sudo add-apt-repository ppa:ubuntu-toolchain-r/test -y 
-sudo apt-get install lua-lgi -y  
-sudo apt-get install libnotify-dev -y 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev make unzip git redis-server autoconf g++ libjansson-dev libpython-dev expat libexpat1-dev -y
-sudo apt-get update 
-sudo apt-get upgrade -y
-}
-if [ "$1" = "ins" ]; then
-install
-fi
-if [ "$1" = "get" ]; then
-get
-fi
-installall
-cd ..
-rm -rf luarocks*
-cd HidaarArmando
-rm -rf luarocks*
-lua start.lua
-
-
+sudo add-ap
